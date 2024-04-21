@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetAdoption Beta</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    main {
+        height: 100vh;
+        background: #222222 ;
+        color: white;
+        display: grid;
+        place-items: center;
+    }
+
+    a:link {
+        color: blueviolet;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .link-button {
+        display: grid;
+        place-items: center;
+        width: 10rem;
+        aspect-ratio: 3;
+        border-radius: 5rem;
+        background-color: #3b3b3b;
+        color: white;
+    }
+
+    .link-button:hover {
+        transform: scale(1.1);
+    }
+
+</style>
+
+<body>
+    <main>
+        <h1>PetAdoption Beta</h1>
+        <a href="./app-debug.apk" download>
+            <div class="link-button">Download Beta</div>
+        </a>
+    </main>
+</body>
+</html>
